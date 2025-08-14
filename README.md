@@ -57,9 +57,10 @@ The goal is to empower individuals to make informed decisions by giving them the
     npm install
 3. **Run the development server**
     ```bash
-        npm run dev
+    npm run dev
 4. **Open in browser**
-    Visit http://localhost:3154 
+    
+    Visit: http://localhost:3154 
 
 ## Contributing
 **World News** *by Nexura* is a solo-built project, but contributions, suggestions, and feedback are always appreciated. If you want to improve accessibility, add features, fix issues, feel free to fork the repo and submit a pull request.
