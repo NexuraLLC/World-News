@@ -55,10 +55,10 @@ The goal is to empower individuals to make informed decisions by giving them the
 2. **Install Dependencies**
     ```bash
     npm install
-3. **Run the development server
+3. **Run the development server**
     ```bash
         npm run dev
-4. **Open in browser
+4. **Open in browser**
     Visit http://localhost:3154 
 
 ## Contributing
