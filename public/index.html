@@ -1,0 +1,70 @@
+<!-- Syntax:
+    <tag class="{design}, {sizing}, {placement}, {action}" settings="" id="" name="" script="" title=""></tag>
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World News</title>
+    <meta name="description" content="World News - by Nexura, LLC.">
+    <meta name="keywords" content="News, World News, Nexura, Nexura LLC">
+    <meta name="author" content="Dante McGlothlin">
+    <meta name="version" content="0.0.1">
+    <link rel="icon" type="img/png" href="../assets/files/logo.png">
+    <link rel="stylesheet" href="assets/style/tailwind.css">
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css">
+
+</head>
+<body>
+    <header>
+        <div class="p-[0.25rem] rounded-sm" id="navbarSection">
+            <div class="bg-red-100  p-[0.5rem] flex flex-row justify-between">
+                <img class="h-[3.5rem] rounded-[300rem] hover:cursor-pointer" src="../assets/files/logo.png" draggable="false">
+                <div class="flex gap-2" id="navbarIcons">
+                    <div class="bg-slate-50 hover:opacity-80 w-10 h-10 rounded-xl hover:cursor-pointer">
+                        <img draggable="false">
+                    </div>
+                    <div class="bg-slate-200 hover:opacity-80 w-10 h-10 rounded-xl hover:cursor-pointer">
+                        <img draggable="false">
+                    </div>
+                    <div class="bg-slate-300 hover:opacity-80 w-10 h-10 rounded-xl hover:cursor-pointer">
+                        <img draggable="false">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <div class="bg-green-100 p-[0.25rem]" id="heroSection">
+            <div class="bg-orange-200 w-[65vw] h-[25rem] rounded-xl mt-20 place-self-center relative">
+                <div class="bg-slate-300 hover:opacity-80 rounded-r-md rounded-l-lg w-5 h-12 absolute left-[1rem] top-1/2 -translate-y-1/2 z-10 hover:cursor-pointer" id="leftArrow"></div>
+                <div class="bg-slate-300 hover:opacity-80 rounded-l-md rounded-r-lg w-5 h-12 place-self-end absolute right-[1rem] top-1/2 -translate-y-1/2 z-10 hover:cursor-pointer" id="rightArrow"></div>
+
+                <div class="bg-[#59595966] p-4 max-h-[20rem] w-[55rem] max-w-[65vw] rounded-md ml-2 mb-2 absolute bottom-0">
+                    <p>Pellentesque hendrerit dapibus lorem vel vulputate. Nullam risus sapien, euismod sed eleifend pretium, ullamcorper ut risus. Pellentesque a dignissim felis, et elementum lectus. Nulla vitae venenatis erat. Nulla dignissim sit amet ante vel elementum. Ut consectetur egestas vehicula. Nam in augue ut tellus tincidunt vestibulum. Vivamus hendrerit gravida mi, eu ultricies elit. Nulla sem odio, condimentum id tellus ac, scelerisque vehicula elit. Integer quis risus lobortis, tempus sapien id, lacinia nulla. Duis volutpat purus tempor arcu condimentum lacinia.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-blue-300 p-[0.25rem] h-[20rem]" id="searchSection">
+            <div class="h-fit">
+                <div>
+                    <form>
+                        <div class="border-slate-500 border-2 rounded-md  w-fit flex place-self-center">
+                            <div class="pl-3 p-1">
+                                <input class="placeholder-black outline-none text-lg font-semibold" type="text" name="searchQuery" id="searchQuery" placeholder="Enter your serach here...">
+                            </div>
+                            <div class="bg-[#45556c33] border-slate-600 border-l-2 rounded-tl-md rounded-bl-md p-2 hover:cursor-pointer">
+                                <input class="hover:cursor-pointer" type="button" value="Enter">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

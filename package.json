@@ -1,0 +1,24 @@
+{
+  "name": "world-news",
+  "version": "1.0.0",
+  "description": "**World News** *by Nexura* is a free, open, and unbiased news research platform designed to give everyone access to accurate, unfiltered information.  \r With a clean, well-thought-out interface and powerful features, World News makes it simple to explore global events without hidden influence.",
+  "main": "index.js",
+  "scripts": {
+    "tailwind": "npx @tailwindcss/cli -i ./assets/style/tailwindInput.css -o ./public/assets/style/tailwind.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NexuraLLC/World-News.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NexuraLLC/World-News/issues"
+  },
+  "homepage": "https://github.com/NexuraLLC/World-News#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.12",
+    "tailwindcss": "^4.1.12"
+  }
+}
